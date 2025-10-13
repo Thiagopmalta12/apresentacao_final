@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kanban To-Do List</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+      <h1><i class="material-icons">check</i> KANBAN </h1>
+  
+  <div class="progress-wrapper">
+    <div id="p1" class="mdl-progress mdl-js-progress"></div>
+  </div>
+
+    <div class="dd" id="board">
+        <ol class="kanban To-do" data-column="To-do">
+  <h2><i class="material-icons">report_problem</i>Backlog</h2>
+  <div class="actions">
+    <button class="addbutt">
+      <i class="material-icons">control_point</i> Add new
+    </button>
+  </div>
+</ol>
+
+
+    <ol class="kanban progress" data-column="In Progress">
+      <h2><i class="material-icons">build</i> Em Execução</h2>
+      <div class="actions"><button class="addbutt"><i class="material-icons">control_point</i> Add new</button></div>
+    </ol>
+
+    <ol class="kanban Done" data-column="Done">
+      <h2><i class="material-icons">delete</i> Em QA </h2>
+      <div class="actions"><button class="addbutt"><i class="material-icons">control_point</i> Add new</button></div>
+    </ol>
+
+    <ol class="kanban Gone" data-column="Gone">
+      <h2><i class="material-icons">check_circle</i> Pronto Para Deploy </h2>
+      <div class="actions"><button class="addbutt"><i class="material-icons">control_point</i> Add new</button></div>
+    </ol>
+  </div>
+
+   <menu class="kanban menu-bar">
+  <button id="viewKanbanBtn" class="viewkanban" title="Ver Kanban">
+    <i class="material-icons">view_column</i>
+  </button>
+  <button id="viewListBtn" class="viewlist" title="Ver Lista">
+    <i class="material-icons">view_list</i>
+  </button>
+  <button id="addColumnBtn">
+    <i class="material-icons">playlist_add</i> Adicione colunas
+  </button>
+  <button id="clearBtn" title="Limpar tudo">Limpar</button>
+    <button id="responsavelBtn" title="Adicionar responsável">
+    <i class="material-icons">person</i> Responsavel
+  </button>
+
+</menu>
+
+    <script src="assets/js/dataStore.js"></script>
+  <script src="assets/js/renderUI.js"></script>
+  <script src="assets/js/appController.js"></script>
+</body>
+</html>
