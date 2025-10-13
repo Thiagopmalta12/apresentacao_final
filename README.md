@@ -113,7 +113,6 @@ Disciplina: Desenvolvimento Front-End
 
 Professor: Msc. Reinaldo de Souza Júnior
 
-Instituição: [Nome da Instituição]
 
 Data da Entrega: 06/10/2025
 
