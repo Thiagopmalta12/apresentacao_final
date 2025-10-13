@@ -123,15 +123,6 @@ Versão do Projeto: 1.0
 Este projeto é de uso educacional e foi desenvolvido exclusivamente para fins acadêmicos.
 Sinta-se livre para reutilizar e aprimorar o código, dando os devidos créditos ao autor.
 
-🟢 Projeto Finalizado – Outubro/2025
-
-yaml
-Copiar código
-
----
-
-Deseja que eu gere esse arquivo como **`README.md` pronto para download (.md)**?  
-Posso criar e te entregar o arquivo completo formatado.
 
 
 
