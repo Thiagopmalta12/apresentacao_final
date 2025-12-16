@@ -102,20 +102,7 @@ Design e Usabilidade (UX)	20%	Interface semelhante ao Trello
 Responsividade	20%	Layout adaptável a diferentes dispositivos
 Documentação (README)	10%	Instruções claras e detalhadas
 
-🧑‍💻 Autor
-Thiago Malta da Silva
-Bacharel em Ciência de Dados | Pós-graduação em Gestão da TI
-💼 Experiência com Front-End, Automação, Power BI e Análise de Dados.
-🌐 LinkedIn | GitHub
 
-📅 Informações do Projeto
-Disciplina: Desenvolvimento Front-End
-
-Professor: Msc. Reinaldo de Souza Júnior
-
-Instituição: [Nome da Instituição]
-
-Data da Entrega: 06/10/2025
 
 Versão do Projeto: 1.0
 
